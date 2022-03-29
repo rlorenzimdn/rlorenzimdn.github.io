@@ -1,0 +1,38 @@
+.table {
+    box-sizing: content-box;
+}
+
+.table__left {
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid green;
+    box-sizing: border-box;
+    column-gap: 40px;
+}
+
+.table__center {
+    padding: 10px;
+    width: 350px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid yellow;
+    box-sizing: border-box;
+}
+
+.table__right {
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid violet;
+    box-sizing: border-box;
+}
+
+.columns {
+    box-sizing: content-box;
+}

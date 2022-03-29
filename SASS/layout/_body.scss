@@ -1,0 +1,24 @@
+.body {
+    background: #E9ECF4;
+    color: $color_black;
+    font-size: 20px;
+    font-family: 'Crimson Pro', serif;
+}
+
+.widget-1 {
+    grid-area: widget-1;
+}
+
+.widget-1:hover {
+    color: $color_orange;
+    transform: skewY(20deg);
+    animation-delay: 3s;
+}
+
+.widget-2 {
+    grid-area: widget-2;
+}
+
+.widget-2:hover {
+    display: block;
+}

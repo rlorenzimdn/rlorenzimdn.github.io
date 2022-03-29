@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: $color_navbar;
+    height: 30px;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+
+.nav-link {
+    background-color: $color_navbar;
+    height: 30px;
+    border: solid $color_navbar_border 1px;
+}
+
+.nav__topics {
+    display: flex;
+    flex-direction: column;
+    background-color: #C85C5C;
+    height: 40px;
+    list-style: none;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav__topics__links {
+    background-color: $color_navbar;
+    padding: 5px;
+    border: solid $color_navbar_border 3px;
+}
