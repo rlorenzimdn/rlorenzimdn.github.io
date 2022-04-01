@@ -4,9 +4,10 @@
   box-sizing: content-box; }
 
 .logo {
+  justify-content: flex-start;
   width: 150px;
-  height: auto;
-  padding: 0px;
+  height: 45px;
+  padding: 10px;
   margin: 5px; }
 
 .navbar {
