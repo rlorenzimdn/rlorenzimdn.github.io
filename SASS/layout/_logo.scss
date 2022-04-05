@@ -1,6 +1,6 @@
 .logo {
-    width: 150px;
-    height: 60px;
-    padding: 0px;
-    margin: 5px;
+    width: $logo-width;
+    height: $logo-height;
+    padding:$logo-padding;
+    margin: $logo-margin;
 }
