@@ -3,11 +3,39 @@
   padding: 0;
   box-sizing: content-box; }
 
+.body {
+  background: #E9ECF4;
+  color: #000;
+  font-size: 20px;
+  font-family: 'Crimson Pro', serif; }
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto; }
+
+.widget-1 {
+  grid-area: widget-1; }
+
+.widget-1:hover {
+  color: #ffa500;
+  transform: skewY(20deg);
+  animation-delay: 3s; }
+
+.widget-2 {
+  grid-area: widget-2; }
+
+.widget-2:hover {
+  display: block; }
+
+.footer {
+  background: #12203E;
+  color: #fff;
+  grid-area: footer; }
+
 .logo {
-  justify-content: flex-start;
   width: 150px;
-  height: 45px;
-  padding: 10px;
+  height: 60px;
+  padding: 0px;
   margin: 5px; }
 
 .navbar {
@@ -38,26 +66,6 @@
   background-color: #f9975d;
   padding: 5px;
   border: solid #89f70b 3px; }
-
-.body {
-  background: #E9ECF4;
-  color: #000;
-  font-size: 20px;
-  font-family: 'Crimson Pro', serif; }
-
-.widget-1 {
-  grid-area: widget-1; }
-
-.widget-1:hover {
-  color: #ffa500;
-  transform: skewY(20deg);
-  animation-delay: 3s; }
-
-.widget-2 {
-  grid-area: widget-2; }
-
-.widget-2:hover {
-  display: block; }
 
 .table {
   box-sizing: content-box; }
@@ -92,8 +100,3 @@
 
 .columns {
   box-sizing: content-box; }
-
-.footer {
-  background: #12203E;
-  color: #fff;
-  grid-area: footer; }
