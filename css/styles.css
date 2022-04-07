@@ -4,8 +4,12 @@
   box-sizing: content-box; }
 
 .body {
-  background: #E9ECF4;
   color: #000; }
+
+.nav-link {
+  background-color: #f9975d;
+  height: 30px;
+  border: solid #89f70b 1px; }
 
 .wrapper {
   width: 90%;
@@ -26,7 +30,6 @@
   display: block; }
 
 .footer {
-  background: #12203E;
   color: #fff;
   grid-area: footer; }
 
@@ -37,6 +40,4 @@
   margin: 5px; }
 
 .nav-link {
-  background-color: #f9975d;
-  height: 30px;
   border: solid #89f70b 1px; }
