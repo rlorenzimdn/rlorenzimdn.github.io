@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="La pasión de aprender. ¿Te gusta aprender y/o comentar sobre los grandes temas?">
+    <meta name="description" content="¿Te gusta aprender sobre las ideas que innovan en nuestras vidas?">
     <meta name="keywords" content="autores, temas, ideas, innovación, opinión">
-    <link rel="shortcut icon" href="../img/favicon.png">
+    <link rel="shortcut icon" href="./img/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Puntero</title>
@@ -24,7 +24,7 @@
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lead" href="#" role="button" data-bs-toggle="dropdown">Temas</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="../pages/topicsPersonal.html">Crecimiento Personal</a></li>
-                        <li><a class="dropdown-item" href="../pages/topicsNovel.html">Novelas</a></li>
+                        <li><a class="dropdown-item" href="../pages/topícsNovel.html">Novelas</a></li>
                         <li><a class="dropdown-item" href="../pages/topicsphilosophy.html">Filosofia</a></li>
                     </ul>
                 </li>
@@ -36,26 +36,18 @@
             </ul>
         </section>
     </nav>
-    <section class=" container-fluid bg-light wrapper p-3">
-        <section class="row">
-            <article class="col-lg border border-primary border-2 p-3">
-                <h3>Novelas</h3>
-                <p class="lead text-start m-2">
-                    La novela (del italiano novella) es una obra literaria en la que se narra una acción fingida en todo o en parte y cuyo fin es causar placer estético a los lectores con la descripción o pintura de sucesos o lances interesantes así como de personajes, pasiones
-                    y costumbres, que en muchos casos sirven de insumos de la propia reflexión o introspección. La vigesimotercera edición del Diccionario de la lengua española de la Real Academia Española la define de manera más general como una «obra
-                    literaria narrativa de cierta extensión» y como un «género literario narrativo que, con precedente en la Antigüedad grecolatina, se desarrolla a partir de la Edad Moderna».1​ La novela se distingue por su carácter abierto y su capacidad
-                    para contener elementos diversos en un relato complejo. Este carácter abierto ofrece al autor una gran libertad para integrar personajes, introducir historias cruzadas o subordinadas unas a otras, presentar hechos en un orden distinto
-                    a aquel en el que se produjeron o incluir en el relato textos de distinta naturaleza: cartas, documentos administrativos, leyendas, poemas, etc. Todo ello da a la novela mayor complejidad que la que presentan los demás subgéneros narrativos.
-                </p>
-            </article>
-        </section>
-    </section>
-    <section>
-        <article class="footer bg-dark m-2">
-            <h6>Creador: Ricardo Lorenzi</h6>
-        </article>
-    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script>
+        arreglo();
+
+        function arreglo() {
+            for (var tema of['Negocio', 'Crecimiento Personal', 'Novela', 'Filosofia', 'Innovacion', 'Tecnologia', ]) {
+                for (var proy of['Antigua', 'Moderna', 'Futurista', ]) {
+                    document.write(tema + ' ' + proy + '<br>');
+                }
+            }
+        };
     </script>
 </body>
 
