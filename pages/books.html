@@ -37,23 +37,29 @@
             </ul>
         </section>
     </nav>
-    <form name="selectForm">
-        <p>
-            <label for="topicsTypes">Elija algunos temas de preferencia, luego haga clic en el botón de abajo:</label>
-            <select id="topicsTypes" name="topicsTypes" multiple="multiple">
-                <option selected="selected">Negocios</option>
-                <option>Crecimiento Personal</option>
-                <option>Novelas</option>
-                <option>Filosofia</option>
-                <option>Innovacion</option>
-                <option>Tecnologia</option>
-            </select>
-        </p>
-        <p><input id="btn" type="button" value="¿Cuántos están seleccionados?" /></p>
-    </form>
+
+    <div class="container">
+        <div class="row">
+            <main id="items" class="col-sm-8 row"></main>
+            <aside class="col-sm-4">
+                <h2>Libros</h2>
+                <ul id="cart" class="list-group"></ul>
+                <hr>
+                <p class="text-right">Total: <span id="total"></span> &#36;</p>
+                <button id="boton-clean" class="btn btn-danger">Vaciar</button>
+            </aside>
+        </div>
+    </div>
+    <section>
+        <article class="footer bg-dark m-2">
+            <h6>Creador: Ricardo Lorenzi</h6>
+        </article>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-    <script src="../js/ciclos.js"></script>
+
+    <script src="../js/shoppingCart.js"></script>
 </body>
+
 
 </html>
