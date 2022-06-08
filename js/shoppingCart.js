@@ -25,9 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function books() {
         data.forEach((info) => {
-            const nodo = document.createElement('div');
+            const nodo = document.createElement('section');
             nodo.classList.add('card', 'col-sm-4');
-            const nodoCardBody = document.createElement('div');
+            const nodoCardBody = document.createElement('section');
             nodoCardBody.classList.add('card-body');
             const nodoTitle = document.createElement('h5');
             nodoTitle.classList.add('card-title');
@@ -70,6 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const nodo = document.createElement('li');
             nodo.classList.add('list-group-item', 'text-right', 'mx-2');
             nodo.textContent = `${numeroUnidadesItem} x ${miItem[0].name} - ${miItem[0].price}${currency}`;
+            sessionStorage.setItem('bookT', miItem[0].name);
             const boton = document.createElement('button');
             boton.classList.add('btn', 'btn-danger', 'mx-5');
             boton.textContent = 'X';
@@ -108,4 +109,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     books();
     generateCart();
+
 });
