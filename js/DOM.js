@@ -6,4 +6,5 @@ function funcionDOM() {
     var currentSection = document.getElementById("section1");
     document.body.insertBefore(newSection, currentSection);
 }
+
 funcionDOM();

@@ -44,8 +44,10 @@
         arreglo();
 
         function arreglo() {
-            for (var tema of['Negocio', 'Crecimiento Personal', 'Novela', 'Filosofia', 'Innovacion', 'Tecnologia', ]) {
-                for (var proy of['Antigua', 'Moderna', 'Futurista', ]) {
+            let tema = ["Negocio", "Crecimiento Personal", "Novela", "Filosofia", "Innovacion", "Tecnologia"];
+            let proy = ["Antigua", "Moderna", "Futurista"];
+            for (x of tema) {
+                for (y of proy) {
                     document.write(tema + ' ' + proy + '<br>');
                 }
             }
