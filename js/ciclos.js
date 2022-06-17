@@ -10,5 +10,6 @@ function cuantos(selectObject) {
 
 let btn = document.getElementById('btn');
 btn.addEventListener('click', function() {
-    alert('Opciones seleccionadas:' + "  " + cuantos(document.selectForm.topicsTypes));
+    // alert('Opciones seleccionadas:' + "  " + cuantos(document.selectForm.topicsTypes));
+    Swal.fire('Opciones seleccionadas: ' + cuantos(document.selectForm.topicsTypes));
 });
