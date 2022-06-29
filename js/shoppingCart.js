@@ -14,6 +14,16 @@ document.addEventListener('DOMContentLoaded', () => {
         name: 'Hacking',
         price: 5090,
         image: '../img/libro_hacking.jpg'
+    },  {
+        id: 4,
+        name: 'La Espiritualidad del Exito',
+        price: 1700,
+        image: '../img/libro_la_espiritualidad_del_exito.jpg'
+    },  {
+        id: 5,
+        name: 'Espabila de una Puta Vez',
+        price: 5200,
+        image: '../img/libro_espabila_de_una_puta_vez.jpg'
     }];
 
     let cart = [];

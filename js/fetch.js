@@ -1,4 +1,4 @@
-fetch("../libros.json")
+fetch("../books.json")
   .then((resp) => resp.json())
   .then((data) => {
     const lista = document.querySelector("div");
