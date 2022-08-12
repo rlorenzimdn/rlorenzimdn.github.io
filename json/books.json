@@ -1,7 +1,0 @@
-[
-    {"id":"1","name":"Tae Te King","price":"3500","stock":"12","image":"../img/libro_tao_te_king.jpg"},
-    {"id":"2","name":"La Voz de tu Alma","price":"9200","stock":"80","image":"../img/libro_la_voz_de_tu_alma.jpg"},
-    {"id":"3","name":"Hacking","price":"5090","stock":"23","image":"../img/libro_hacking.jpg"},
-    {"id":"4","name":"La Espiritualidad del Exito","price":"1700","stock":"5","image":"../img/libro_la_espiritualidad_del_exito.jpg"},
-    {"id":"5","name":"Espabila de una Puta Vez","price":"5200","stock":"45","image":"../img/libro_espabila_de_una_puta_vez.jpg"}
-]
